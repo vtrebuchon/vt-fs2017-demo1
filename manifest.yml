@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: vt-fs2017-demo1
+  host: vt-fs2017-demo1
+  disk_quota: 1024M
+  services:
+  - vt-fs2017-demo1-cloudantNoSQLDB
